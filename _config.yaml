@@ -1,0 +1,31 @@
+# Site Settings
+title: Jay Motwani
+description: 
+url: "https://jaywala.github.io"
+
+# Theme Plugins & Core Configuration
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+remote_theme: kitian616/jekyll-TeXt-theme
+text_skin: default
+
+# Markdown Settings for Diagrams & Code
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Enable Built-in Markdown Enhancements
+extensions:
+  mermaid: true
+  mathjax: true
+  chartjs: false
+
+# Sass Compiler Configuration
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
