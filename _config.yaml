@@ -1,6 +1,6 @@
 # Site Settings
 title: Jay's things
-description: 
+description: A place for Jay's things
 url: "https://jaywala.github.io"
 
 # Theme Plugins & Core Configuration
@@ -10,7 +10,8 @@ plugins:
   - jekyll-seo-tag
 
 remote_theme: kitian616/jekyll-TeXt-theme
-text_skin: default
+# Choose from: default, dark, forest, ocean, chocolate, orange
+text_skin: forest
 
 # Markdown Settings for Diagrams & Code
 markdown: kramdown
