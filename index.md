@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Welcome
-sidebar:
-  nav: home
+# sidebar:
+#   nav: home
 ---
 
-Welcome to my tech notebook! Use the navigation to find my software notes
+Welcome to my tech notebook!

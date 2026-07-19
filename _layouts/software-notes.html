@@ -3,10 +3,10 @@ layout: page
 ---
 {{ content }}
 <ul>
-  {% for post in site.categories.software-notes %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
-      <span style="color: #888; font-size: 0.9em;">— {{ post.date | date: "%B %d, %Y" }}</span>
-    </li>
+	{% for post in site.categories['software-notes'] %}
+	<li>
+		<a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
+		<span style="color: #888; font-size: 0.9em;">— {{ post.date | date: "%B %d, %Y" }}</span>
+	</li>
   {% endfor %}
 </ul>
