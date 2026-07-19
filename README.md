@@ -14,6 +14,7 @@ To run this project locally, you need to have the following installed:
 ### Installation
 
 1. Install dependencies:
+
    ```bash
    bundle install
    ```
@@ -29,6 +30,7 @@ bundle exec jekyll serve
 This will boot up the Jekyll server. By default, it will be available at [http://localhost:4000](http://localhost:4000).
 
 #### With Live Reload
+
 If you want the site to automatically reload when you make changes, run:
 
 ```bash

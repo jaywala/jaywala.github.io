@@ -28,6 +28,14 @@ extensions:
 
 # Sass Compiler Configuration
 sass:
-  quiet_deps: true
-  silence_deprecations:
+    quiet_deps: true
+    silence_deprecations:
     - import
+
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: "_posts/software-notes"
+    values:
+      categories: [software-notes]
