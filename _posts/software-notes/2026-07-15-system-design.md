@@ -5,6 +5,11 @@ aside:
     toc: true
 ---
 
+## Database
+
+### ACID
+
+### CAP Theorem
 
 ## Useful Resources
 
