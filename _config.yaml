@@ -11,7 +11,7 @@ plugins:
 
 remote_theme: kitian616/jekyll-TeXt-theme
 # Choose from: default, dark, forest, ocean, chocolate, orange
-text_skin: forest
+text_skin: orange
 highlight_theme: tomorrow-night
 
 # Markdown Settings for Diagrams & Code
